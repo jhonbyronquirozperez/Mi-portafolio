@@ -1,0 +1,31 @@
+header .header-icons-container{
+    background-color: #47cfac;
+}
+nav{
+    height: 10px;
+    grid-template-columns: minmax(1px,60px) 1fr 1fr;
+}
+nav .nav-logo-container img{
+    width: 80px;
+    margin-right: 20px;  
+}
+nav .profile-link{
+    font-size: 25px;
+}
+.home-main{
+    place-self: center;
+    justify-content: center;
+}
+body{
+   /* background-image: url('../assets/img/art-g7643852e6_1280.png');*/
+}
+body .label p{
+  margin-left: 140px;
+  font-size: 30px;
+}
+.home-main-text{
+    margin-right:150px;
+}
+.home-main-button{
+    margin-right: 40px;
+}
